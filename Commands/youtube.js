@@ -9,7 +9,7 @@ Youtube:
 Coded by pasidu sampath
 */
 var { ravindumanoj_api_key } = require('../Details.js')
-var Api_url = 'https://api-ravindumanoj.ml/'
+var Api_url = 'https://api-pasidusampath.ml/'
 const fs = require('fs')
 var ffmpeg = require('fluent-ffmpeg')
 const {
