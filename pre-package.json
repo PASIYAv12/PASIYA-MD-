@@ -1,17 +1,17 @@
 {
-  "name": "manoj-multi-device",
+  "name": "PASIYA-MD",
   "version": "1.0.0",
   "description": "World Best Whatsapp Bot.",
   "main": "./index.js",
   "scripts": {
-    "start": "bash manoj-multi-device-whatsapp-start.sh"
+    "start": "bash Ppasiya-md-device-whatsapp-start.sh"
   },
-  "author": "Ravindu Manoj",
+  "author": "PASIDU-MD",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ravindu01manoj/Manoj-Md/issues"
+    "url": "https://g"
   },
-  "homepage": "https://github.com/ravindu01manoj/Manoj-Md#readme",
+  "homepage": "https://github.com/ravindu01pasiya/pasiya-Md#readme",
   "dependencies": {
     "@adiwajshing/baileys": "git+https://github.com/ravindu01manoj/baileys",
     "@ravindu01manoj/bash-js": "*",
@@ -38,6 +38,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ravindu01manoj/Manoj-Md.git"
+    "url": "git+https://github.com/ravindu01pasiya/pasiya-Md.git"
   }
 }
