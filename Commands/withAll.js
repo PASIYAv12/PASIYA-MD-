@@ -1,20 +1,20 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md  whats apps bot
 
-website: https://ravindumanoj.ml
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+website: 
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded by pasidu sampath
 */
 var { ravindumanoj_api_key } = require('../Details.js')
-var Api_url = 'https://api-ravindumanoj.ml/'
+var Api_url = 'https://api-pasidusampath.ml/'
 const { WithAllModule, XO } = Ravindu
 const { xoturncatch } = XO
 const { set_up_module, sendReaction, antiviweonce, autovoice, voiceAi, autosticker, AiChatBot, botRemove, groupLinkRemove, antiSpamRemove, antidelete, autobadwordkick, autoinboxblock } = WithAllModule
 
-Manoj.z_note.start = async(core) => {
+pasiya.z_note.start = async(core) => {
 	if(!core.fromMe && owner.have(core.sender.cut('@')[0])) {
 		await Try(sendReaction, core)
 	}
