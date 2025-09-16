@@ -1,18 +1,18 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md  whats apps bot
 
-website: https://ravindumanoj.ml
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+website: 
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded by pasidu sampath
 */
 const {
 	SinhalaSubLk
-} = Ravindu
+} = pasidu
 
-Manoj.sub.start = async(core) => {
+sampath.sub.start = async(core) => {
 	try {
 		if(!core.input) {
 			return await core.send(string().bcope.need)
