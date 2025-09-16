@@ -1,14 +1,13 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md  whats apps bot
 
-website: https://ravindumanoj.ml
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+website: 
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded by pasidu sampath
 */
-
 const {
 	load,
 	FormData,
@@ -18,7 +17,7 @@ const {
 const pipeline = promisify(stream.pipeline)
 
 
-Manoj.removebg.start = async(core) => {
+pasiya.removebg.start = async(core) => {
 	if(!string().rbgapi) {
 		return await core.send(string().removebg.needapi)
 	}
@@ -28,10 +27,10 @@ Manoj.removebg.start = async(core) => {
 		return await core.send(string().download.needi)
 	}
 
-	fs.writeFileSync('./manoj123.png', data.buffer)
+	fs.writeFileSync('./pasiya123.png', data.buffer)
 	await core.reply(string().removebg.edit)
 	var form = new FormData()
-	form.append('image_file', fs.createReadStream('./manoj123.jpg'))
+	form.append('image_file', fs.createReadStream('./pasiya123.jpg'))
 	form.append('size', 'auto')
 	var rbg = await load.stream.post('https://api.remove.bg/v1.0/removebg', {
 		body: form,
@@ -39,9 +38,9 @@ Manoj.removebg.start = async(core) => {
 			'X-Api-Key': string().rbgapi
 		}
 	})
-	await pipeline(rbg, fs.createWriteStream('manoj.png'))
+	await pipeline(rbg, fs.createWriteStream('pasiya.png'))
 
-	await core.mediasend('document', 'manoj.png', 'image/png', {}, 'background-removed-manoj-md.png')
-	removefile('manoj.png')
-	removefile('./manoj123.jpg')
+	await core.mediasend('document', 'pasiya.png', 'image/png', {}, 'background-removed-manoj-md.png')
+	removefile('pasiya.png')
+	removefile('./pasiya123.jpg')
 }
