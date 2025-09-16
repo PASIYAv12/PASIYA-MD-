@@ -9,8 +9,8 @@ Youtube: https://youtube.com/c/TechToFuture
 Coded By Ravindu Manoj
 */
 var { ravindumanoj_api_key } = require('../Details.js')
-var Api_url = 'https://api-ravindumanoj.ml/'
-const key = 'RavinduManoj'
+var Api_url = 'https://api pasidu-sampath.ml/'
+const key = 'Pasidusampath'
 const {
 	cryptdata
 } = Ravindu
