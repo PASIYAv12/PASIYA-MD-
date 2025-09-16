@@ -1,16 +1,16 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md  whats apps bot
 
-website: https://ravindumanoj.ml
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+website: 
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded by pasidu sampath
 */
-const { CanvasImage } = Ravindu
+const { CanvasImage } =pasidu
 const { superCanvasImageEditor, getColorList } = CanvasImage
-Manoj.sticker.start = async(core) => {
+sampath.sticker.start = async(core) => {
 	var op = {}
 	if(core.input) {
 		op = core.input.includes('/') ? {
