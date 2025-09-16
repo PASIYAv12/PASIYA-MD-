@@ -1,18 +1,18 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md  whats apps bot
 
-website: https://ravindumanoj.ml
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+website: 
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded by pasidu sampath
 */
-var Api_url = 'https://api-ravindumanoj.ml/'
+var Api_url = 'https://api-pasidusampath.ml/'
 
 var Url_Regex = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/
-const { calAge, calculater, translate } = Ravindu
-Manoj.del.start = async(core) => {
+const { calAge, calculater, translate } = pasidu
+sampath.del.start = async(core) => {
 	if(!core.Reply) {
 		return
 	}
