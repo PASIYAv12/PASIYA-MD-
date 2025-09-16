@@ -1,18 +1,17 @@
-# Manoj Md Whatsapp Bot                      
+# PASIYA Md Whatsapp Bot                      
 #
-# Telegram: https://t.me/RavinduManoj
-# Facebook: https://www.facebook.com/ravindu.manoj.79
-# Youtube: https://youtube.com/c/TechToFuture
+# Telegram: 
+# Facebook: 
+# Youtube: 
 #
-# Coded By Ravindu Manoj
-. /root/manoj-multi-device-whatsapp-pre-data.sh
-
+# PASIDU SAMPATH
+. 
 printf "\033c"
 # Main Display
 echo "${echo_Main_wa_Display}"
 # Show Logs
 echo "
-# Manoj Multi-device Whatsapp Bot
+# PASIYA-MD- Whatsapp Bot
 #
 #   - Not yet published
 #
