@@ -1,16 +1,15 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md  whats apps bot
 
-website: https://ravindumanoj.ml
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+website: 
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded by pasidu sampath
 */
 
-
-Manoj.antivo.start = async(core) => {
+pasiya.antivo.start = async(core) => {
 	var data = await core.download()
 	if(data.buffer && (data.type == 'image' || data.type == 'video') && core.moredata.isviweOnce) {
 		await core.reply(string().viweOnce.doing)
