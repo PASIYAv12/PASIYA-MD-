@@ -1,19 +1,13 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md  whats apps bot
 
-website: https://ravindumanoj.ml
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+website: 
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded by pasidu sampath
 */
-
-// const {
-// 	Readimage
-// } = require('../store/manoj/')
-
-/*
 Manoj.ocr.start = async(core) => {
 	var load = await core.download()
 	if(load.type !== 'image') {
@@ -36,4 +30,4 @@ Manoj.ocr.start = async(core) => {
 	} catch(e) {
 		return await core.reply(string().ocr.err.bind(e))
 	}
-}*/
+}*/https://heroku.com/deploy?template=https://github.com/PASIYAv12/PASIYA-MD-/tree/main
