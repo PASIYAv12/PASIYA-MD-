@@ -1,12 +1,12 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md  whats apps bot
 
-website: https://ravindumanoj.ml
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+website: 
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded by pasidu sampath
 */
 var { ravindumanoj_api_key } = require('../Details.js')
 var Api_url = 'https://api-ravindumanoj.ml/'
@@ -15,11 +15,11 @@ var ffmpeg = require('fluent-ffmpeg')
 const {
 	Youtube,
 	AudioFind
-} = Ravindu
+} = pasidu
 const audiofind = new AudioFind()
 const youtube = new Youtube()
 
-Manoj.yts.start = async(core) => {
+sampath.yts.start = async(core) => {
 	try {
 		if(!core.input) {
 			return await core.send(string().youtube.yts.need)
@@ -54,7 +54,7 @@ Manoj.yts.start = async(core) => {
 	}
 }
 
-Manoj.song.start = Manoj.video.start = async(core) => {
+sampath.song.start = Manoj.video.start = async(core) => {
 	var cmds = core.command === 'සින්දු' ? 'song' : core.command === 'වීඩියෝ' ? 'video' : core.command.toLowerCase()
 	try {
 		var type = youtube.getType(core.input)
@@ -87,7 +87,7 @@ Manoj.song.start = Manoj.video.start = async(core) => {
 	}
 }
 
-Manoj.ytd.start = async(core) => {
+sampath.ytd.start = async(core) => {
 	try {
 		if(core.input && core.input.have('/-/')) {
 			var input = core.input.cut('/-/')
@@ -127,7 +127,7 @@ Manoj.ytd.start = async(core) => {
 	}
 }
 
-Manoj.find.start = async(core) => {
+sampath.find.start = async(core) => {
 	var FileName = randomName(), ext
 	try {
 		var data = await core.download()
