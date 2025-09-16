@@ -1,3 +1,16 @@
+
+/*
+pasiya-md  whats apps bot
+
+website: 
+Telegram: 
+Facebook: 
+Youtube: 
+
+Coded by pasidu sampath
+*/
+
+
 const axios = require('axios')
 var Api_url = 'https://api-ravindumanoj.ml/'
 
