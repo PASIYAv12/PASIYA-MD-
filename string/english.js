@@ -1,19 +1,19 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md whats apps bot
 
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded By pasiya-md
 */
 var string = {
 	manoj: {
 		Status: 200,
-		Code: 'Ravindu Manoj',
+		Code: 'pasiya-md',
 		lang: {
 			code: 'EN',
-			author: 'Ravindu Manoj'
+			author: 'pasidu sampath'
 		},
 		file: 'English',
 		Country: 'Sri Lanka',
