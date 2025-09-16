@@ -1,6 +1,6 @@
-FROM ravindu01manoj/core:v0.0.52
+FROM PASIYA-MD
 
-RUN git clone https://github.com/ravindu01manoj/Manoj-Md $MANOJ_MULTI_DEVICE
-WORKDIR $MANOJ_MULTI_DEVICE
+RUN git clone https://github.com/PASIYAv12/PASIYA-MD-.git
+WORKDIR $PASIYA-MD
 
-ENTRYPOINT ["bash","manoj-multi-device-whatsapp-start.sh"]
+ENTRYPOINT ["bash","PASIYA-MD-whatsapp-start.sh"]
