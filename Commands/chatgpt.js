@@ -12,7 +12,7 @@ Coded by pasidu sampath
 
 
 const axios = require('axios')
-var Api_url = 'https://api-ravindumanoj.ml/'
+var Api_url = 'https://api-pasidusampath.ml/'
 
 Manoj.chatgpt.start = async(core) => {
 	if(core.text == 'new') {
@@ -26,7 +26,7 @@ Manoj.chatgpt.start = async(core) => {
 			method: 'POST',
 			url : Api_url,
 			data : {
-				api:process.env.Ravindu_Manoj_Api,
+				api:process.env.Pasidu_sampath_Api,
 				code: 'chatgpt',
 				text: core.text,
 				...ids
