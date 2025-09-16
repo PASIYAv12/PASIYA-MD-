@@ -1,15 +1,15 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md  whats apps bot
 
-website: https://ravindumanoj.ml
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+website: 
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded by pasidu sampath
 */
 
-Manoj.scan.start = async(core) => {
+pasiya.scan.start = async(core) => {
 	if(!core.input) {
 		return await core.send(string().tag.need)
 	}
