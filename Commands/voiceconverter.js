@@ -1,16 +1,16 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md  whats apps bot
 
-website: https://ravindumanoj.ml
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+website: 
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded by pasidu sampath
 */
-var { ravindumanoj_api_key } = require('../Details.js')
-var Api_url = 'https://api-ravindumanoj.ml/'
-Manoj.voicy.start = async(core) => {
+var { pasidusampath_api_key } = require('../Details.js')
+var Api_url = 'https://api-pasidusampath.ml/'
+pasidu.voicy.start = async(core) => {
 	try {
 		if(!core.Reply.audio) {
 			return await core.send(string().download.needa)
