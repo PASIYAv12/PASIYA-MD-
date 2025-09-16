@@ -22,13 +22,13 @@
       "value": "PASIYA-MD"
     },
     "SESSION_ID1": {
-      "description": "First Baileys session ID"
+      "description": "First pasiya-md session ID"
     },
     "SESSION_ID2": {
-      "description": "Second Baileys session ID"
+      "description": "Second pasiya-md session ID"
     },
     "SESSION_ID3": {
-      "description": "Third Baileys session ID"
+      "description": "Third pasiya-md  session ID"
     },
     "MONGO_URI": {
       "description": "Your MongoDB connection URI"
