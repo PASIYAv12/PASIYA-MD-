@@ -8,8 +8,8 @@ Youtube:
 
 Coded by pasidu sampath
 */
-var { ravindumanoj_api_key } = require('../Details.js')
-var Api_url = 'https://api-ravindumanoj.ml/'
+var { pasidusampath_api_key } = require('../Details.js')
+var Api_url = 'https://api-pasidusampath.ml/'
 const { load } = require('../store/manoj/')
 const { ipDetect } = Ravindu
 
