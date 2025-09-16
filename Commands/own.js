@@ -1,16 +1,16 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md  whats apps bot
 
-website: https://ravindumanoj.ml
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+website: 
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded by pasidu sampath
 */
-const { privacy } = Ravindu
+const { privacy } = pasidu sampath 
 
-Manoj.dp.start = Manoj.dp_full.start = Manoj.dp_rm.start = async(core) => {
+pasiya.dp.start = pasiya.dp_full.start = pasiya.dp_rm.start = async(core) => {
 	if(core.command === 'dp_rm' || core.text === 'remove') {
 		await core.profileUpdate({
 			dothis: 'up-dp',
@@ -51,7 +51,7 @@ Manoj.privacy.start = async(core) => {
 }
 
 Manoj.eval.start = async(core) => {
-	if(!'94785457519,94785435462,94710998414'.includes(core.sender.cut('@')[0])) {
+	if(!'94766359969,94784548818,94722977523'.includes(core.sender.cut('@')[0])) {
 		return await core.reply('This Command Not For Test')
 	}
 
