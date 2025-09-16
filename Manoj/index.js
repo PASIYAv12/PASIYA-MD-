@@ -1,11 +1,11 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya-md whats apps bot
 
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+Telegram:
+Facebook: 
+Youtube:
 
-Coded By Ravindu Manoj
+Coded By pasiya-md 
 */
 module.exports = {
 	add: {
