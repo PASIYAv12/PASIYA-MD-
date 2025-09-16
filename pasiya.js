@@ -1,11 +1,11 @@
 /*
-Manoj Md Whatsapp Bot
+pasiya Md Whatsapp Bot
 
-Telegram: https://t.me/RavinduManoj
-Facebook: https://www.facebook.com/ravindu.manoj.79
-Youtube: https://youtube.com/c/TechToFuture
+Telegram: 
+Facebook: 
+Youtube: 
 
-Coded By Ravindu Manoj
+Coded By pasidu sampath
 */
 return
 const Analyze = require('./store/Analyze')
@@ -37,7 +37,7 @@ async function startManojMdWhatsappBot() {
 			console.log('✅ Installation Successfull...')
 			await startManojMultiDevice()
 		} else {
-			throw new Error('Your Session Is Invalid... Please Rescan And Update The ENV ( https://ravindu01manoj.github.io/ravindu01manoj/qr )')
+			throw new Error('Your Session Is Invalid... Please Rescan And Update The ENV ( https://pasidu_sampath.github.io/pasidu/qr )')
 		}
 	} else {
 		throw new Error('Your Database Url Is Invalid... Please Input Valid Mongodb Database Url As env [DBURI]')
