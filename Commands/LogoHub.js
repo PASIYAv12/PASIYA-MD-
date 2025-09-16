@@ -9,7 +9,7 @@ Youtube:
 Coded By pasidu sampath
 */
 var { ravindumanoj_api_key } = require('../Details.js')
-var Api_url = 'https://api-ravindumanoj.ml/'
+var Api_url = 'https://api-pasidusampath.ml/'
 const { EphotoBest, emojimix, ph, emojiToPng, attplist, toAttp, fancy, RGBTEXT } = Ravindu
 
 Manoj.logoA.start = async(core) => {
@@ -305,4 +305,4 @@ Manoj.emojimix.start = async(core) => {
 		return await core.reply(string().attp.emojimix.error.bind(emo[0], emo[1]))
 	}
 }
-//Manoj.ph.start = async (core) => {await ph(core)}
+//pasiya.ph.start = async (core) => {await ph(core)}
