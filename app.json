@@ -1,0 +1,46 @@
+{
+  "name": "PASIYA-MD",
+  "description": "Sri Lanka's #1 WhatsApp MD Bot Base 🇱🇰 by Pasidu Sampath",
+  "repository": "https://github.com/PASIYAv12/PASIYA-MD-.git",
+  "logo": "https://files.catbox.moe/zmln91.jpg",
+  "keywords": ["whatsapp", "bot", "baileys", "multi-device", "nodejs", "pasiya-md"],
+  "env": {
+    "OWNER_NUMBER": {
+      "description": "Primary owner number",
+      "value": "94784548818"
+    },
+    "OWNER_NUMBER2": {
+      "description": "Secondary owner number",
+      "value": "94766359869"
+    },
+    "ADMIN_NUMBER": {
+      "description": "Admin number (for extra privileges)",
+      "value": "94722977523"
+    },
+    "BOT_NAME": {
+      "description": "Your bot's name",
+      "value": "PASIYA-MD"
+    },
+    "SESSION_ID1": {
+      "description": "First Baileys session ID"
+    },
+    "SESSION_ID2": {
+      "description": "Second Baileys session ID"
+    },
+    "SESSION_ID3": {
+      "description": "Third Baileys session ID"
+    },
+    "MONGO_URI": {
+      "description": "Your MongoDB connection URI"
+    },
+    "PREFIX": {
+      "description": "Command prefix (e.g., . or !)",
+      "value": "."
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
