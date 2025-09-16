@@ -3,4 +3,4 @@ build:
       worker: Dockerfile
       
 run:
-   worker: bash manoj-multi-device-whatsapp-start.sh
+   worker: bash pasiya-md-whatsapp-start.sh
